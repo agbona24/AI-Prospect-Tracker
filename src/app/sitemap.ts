@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/pricing`,      lastModified: new Date('2026-07-01'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${SITE_URL}/blog`,         lastModified: new Date(),              changeFrequency: 'weekly',  priority: 0.8 },
     ...blogEntries,
+    { url: `${SITE_URL}/growth`,       lastModified: new Date('2026-07-01'), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE_URL}/market-brief`, lastModified: new Date('2026-07-01'), changeFrequency: 'monthly', priority: 0.6 },
     { url: `${SITE_URL}/privacy`,      lastModified: new Date('2026-07-01'), changeFrequency: 'yearly',  priority: 0.2 },
     { url: `${SITE_URL}/terms`,        lastModified: new Date('2026-07-01'), changeFrequency: 'yearly',  priority: 0.2 },
